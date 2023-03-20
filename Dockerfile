@@ -1,5 +1,6 @@
 FROM ruby:2.7
 
-RUN gem install bundler && bundle install
+WORKDIR /usr/src/app
 
-EXPOSE 4000
+COPY Gemfile Gemfile.lock ./
+RUN gem install bundler && bundle install
