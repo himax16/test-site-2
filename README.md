@@ -6,6 +6,8 @@ Based on the [Just the Docs] theme for [Jekyll] and published on [GitHub Pages].
 
 This repository is licensed under the [MIT License].
 
+Test signing.
+
 ----
 
 [Jekyll]: https://jekyllrb.com
